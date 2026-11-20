@@ -5,7 +5,7 @@ TXN202714,CUST11352,2023-01-12,2023-01-20,41.0,Male,60476.0,East,Jharkhand,Ranch
 TXN206797,CUST11551,2024-06-06,2024-06-10,33.0,Male,41516.94,West,Gujarat,Surat,Home Office,Grocery,Olive Oil 1L,4,332.48,0.34,877.75,556.78,320.97,Debit Card,Standard,3.0,Medium,No
 TXN203937,CUST10855,2024-09-23,2024-09-30,29.0,Female,95727.49,North,Haryana,Gurugram,Consumer,Electronics,Laptop Stand,1,10542.13,0.21,8328.28,5528.47,2799.81,UPI,Express,1.0,Low,No
 TXN201519,CUST10101,2024-09-04,2024-09-15,31.0,Female,61091.88,West,Goa,Margao,Home Office,Grocery,Olive Oil 1L,3,230.4,0.13,601.34,401.72,199.62,Cash on Delivery,Standard,4.0,Medium,No
-TXN204651,CUST10617,2023-10-23,2023-11-05,43.0,Male,47583.45,North,Haryana,Panipat,Corporate,Clothing,Formal Shirt,4,1991.45,0.39,4859.14,2754.71,2104.43,Net Banking,Standard,,Medium,No
+TXN204651,CUST10617,2023-10-23,2023-11-05,43.0,Male,47583.45,North,Haryana ,Panipat,Corporate,Clothing,Formal Shirt,4,1991.45,0.39,4859.14,2754.71,2104.43,Net Banking,Standard,,Medium,No
 TXN200258,CUST11001,2023-10-13,2023-10-14,46.0,Male,64787.64,North,Punjab,Jalandhar,Home Office,Clothing,Running Shoes,1,3073.99,0.21,2428.45,1584.3,844.15,Debit Card,Standard,3.0,Low,No
 TXN203288,CUST11548,2023-06-22,2023-06-23,44.0,Male,46639.38,West,Gujarat,Vadodara,Home Office,Clothing,Cotton T-Shirt,3,1471.19,0.08,4060.48,2745.86,1314.62,Credit Card,Express,3.0,Medium,No
 TXN200987,CUST11032,2024-12-18,2024-12-23,40.0,Female,53571.98,South,Kerala,Kochi,Consumer,Grocery,Almonds 500g,5,866.86,0.41,2557.24,1532.97,1024.27,Debit Card,Standard,3.0,High,Yes
