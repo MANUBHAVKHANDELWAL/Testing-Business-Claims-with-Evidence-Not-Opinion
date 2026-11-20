@@ -32,7 +32,7 @@ def clean_data(frame):
  x.loc[~x.Age.between(18,100),'Age']=np.nan
  x.loc[~x.Discount.between(0,0.5),'Discount']=np.nan
  x.loc[(x.Income<=0)|(x.Income>500000),'Income']=np.nan
- # no fabricated / imputed values: pairwise complete-case analysis per test
+
  return x
 
 def main():
