@@ -1,4 +1,4 @@
-Transaction_ID,Customer_ID,Order_Date,Delivery_Date,Age,Gender,Income,Region,State,City,Customer_Segment,Product_Category,Product,Quantity,Unit_Price,Discount,Sales,Cost,Profit,Payment_Method,Delivery_Mode,Customer_Rating,Satisfaction_Level,Returned
+Transaction_ID,Customer_ID,Order_Date,Delivery_Date,Age, Gender,Income,Region,State,City,Customer_Segment,Product_Category,Product,Quantity,Unit_Price,Discount,Sales,Cost,Profit,Payment_Method,Delivery_Mode,Customer_Rating,Satisfaction_Level,Returned
 TXN205933,CUST10816,2023-12-19,2023-12-25,38.0,Male,62828.52,West,Gujarat,Surat,Consumer,Grocery,Honey Jar,3,887.94,0.32,1811.4,1204.47,606.93,Debit Card,Standard,3.0,Low,No
 TXN201247,CUST10916,2023-09-30,2023-10-04,42.0,Male,50952.64,North,Haryana,Gurugram,Home Office,Electronics,USB-C Hub,2,14309.96,0.18,23468.33,17137.06,6331.27,Credit Card,Standard,3.0,High,No
 TXN202714,CUST11352,2023-01-12,2023-01-20,41.0,Male,60476.0,East,Jharkhand,Ranchi,Consumer,Clothing,Winter Jacket,4,710.95,0.09,2587.86,1577.83,1010.03,Debit Card,Express,3.0,Medium,No
