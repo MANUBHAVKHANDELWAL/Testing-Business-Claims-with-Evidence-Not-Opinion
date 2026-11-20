@@ -1,7 +1,7 @@
 Transaction_ID,Customer_ID,Order_Date,Delivery_Date,Age,Gender,Income,Region,State,City,Customer_Segment,Product_Category,Product,Quantity,Unit_Price,Discount,Sales,Cost,Profit,Payment_Method,Delivery_Mode,Customer_Rating,Satisfaction_Level,Returned
 TXN205933,CUST10816,2023-12-19,2023-12-25,38.0,Male,62828.52,West,Gujarat,Surat,Consumer,Grocery,Honey Jar,3,887.94,0.32,1811.4,1204.47,606.93,Debit Card,Standard,3.0,Low,No
 TXN201247,CUST10916,2023-09-30,2023-10-04,42.0,Male,50952.64,North,Haryana,Gurugram,Home Office,Electronics,USB-C Hub,2,14309.96,0.18,23468.33,17137.06,6331.27,Credit Card,Standard,3.0,High,No
-TXN202714,CUST11352,2023-01-12,2023-01-20,41.0,Male,60476.0,East,Jharkhand,Ranchi,Consumer,Clothing,Winter Jacket,4,710.95,0.09,2587.86,1577.83,1010.03,Debit Card,Express,3.0,Medium,No
+TXN202714,CUST11352,2023-01-12,2023-01-20,41.0,Male,60476.0, East,Jharkhand,Ranchi,Consumer,Clothing,Winter Jacket,4,710.95,0.09,2587.86,1577.83,1010.03,Debit Card,Express,3.0,Medium,No
 TXN206797,CUST11551,2024-06-06,2024-06-10,33.0,Male,41516.94,West,Gujarat,Surat,Home Office,Grocery,Olive Oil 1L,4,332.48,0.34,877.75,556.78,320.97,Debit Card,Standard,3.0,Medium,No
 TXN203937,CUST10855,2024-09-23,2024-09-30,29.0,Female,95727.49,North,Haryana,Gurugram,Consumer,Electronics,Laptop Stand,1,10542.13,0.21,8328.28,5528.47,2799.81,UPI,Express,1.0,Low,No
 TXN201519,CUST10101,2024-09-04,2024-09-15,31.0,Female,61091.88,West,Goa,Margao,Home Office,Grocery,Olive Oil 1L,3,230.4,0.13,601.34,401.72,199.62,Cash on Delivery,Standard,4.0,Medium,No
