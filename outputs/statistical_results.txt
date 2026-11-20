@@ -1,0 +1,136 @@
+RetailStat AI | Statistical execution results
+All valid provided records analyzed; no random subset.
+
+{
+  "raw_rows": 7084,
+  "unique_transactions": 7000,
+  "duplicates_removed": 84,
+  "invalid_age_or_missing_after_clean": 146,
+  "invalid_or_missing_discount": 76,
+  "invalid_or_missing_income": 251,
+  "mean_sales": 10961.598467142856,
+  "ci95_sales": [
+    10620.713111346553,
+    11302.483822939159
+  ],
+  "confidence_n": 7000,
+  "region_means": {
+    "North": 10777.978406921242,
+    "South": 10726.921947756955,
+    "East": 11341.752039660058,
+    "West": 10989.430233592882
+  },
+  "ttest": {
+    "statistic": 0.10523593882884943,
+    "pvalue": 0.9161947628140742,
+    "n_north": 1676,
+    "n_south": 1761,
+    "method": "Welch independent two-sample t-test"
+  },
+  "anova": {
+    "statistic": 0.6454799429457165,
+    "pvalue": 0.5857304029574638,
+    "method": "one-way ANOVA"
+  },
+  "chi_square": {
+    "statistic": 3.4533544189389365,
+    "pvalue": 0.9027795053306846,
+    "dof": 8,
+    "min_expected": 126.11771428571429,
+    "method": "Pearson chi-square independence test"
+  },
+  "correlation": {
+    "coefficient": -0.1201494074454187,
+    "pvalue": 1.0997402595527784e-23,
+    "n": 6924,
+    "method": "Pearson correlation"
+  },
+  "simple_regression": {
+    "n": 7000,
+    "r2": 0.13892653651114228,
+    "coefficients": {
+      "const": -609.3014978211642,
+      "Quantity": 3844.517740400043
+    },
+    "pvalues": {
+      "const": 0.14922486431590748,
+      "Quantity": 1.0263346462018052e-114
+    }
+  },
+  "multiple_regression": {
+    "n": 6675,
+    "r2": 0.15905346657179364,
+    "coefficients": {
+      "const": 2045.4077523490164,
+      "Quantity": 3911.799658375563,
+      "Discount": -15683.213849259419,
+      "Income": 0.005925095634172257
+    },
+    "pvalues": {
+      "const": 0.0004492909698798895,
+      "Quantity": 2.9057274324610753e-113,
+      "Discount": 7.045943047131096e-33,
+      "Income": 0.3609310196097911
+    }
+  },
+  "alpha": 0.05,
+  "note": "Full supplied dataset; no random sampling, no causal claims. OLS HC3 heteroskedasticity-robust standard errors; observational and potentially repeated customers."
+}
+
+SIMPLE MODEL
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Sales   R-squared:                       0.139
+Model:                            OLS   Adj. R-squared:                  0.139
+Method:                 Least Squares   F-statistic:                     518.2
+Date:                Fri, 20 Nov 2026   Prob (F-statistic):          9.97e-111
+Time:                        23:17:02   Log-Likelihood:                -76506.
+No. Observations:                7000   AIC:                         1.530e+05
+Df Residuals:                    6998   BIC:                         1.530e+05
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       -609.3015    422.459     -1.442      0.149   -1437.305     218.702
+Quantity    3844.5177    168.881     22.765      0.000    3513.518    4175.518
+==============================================================================
+Omnibus:                     2525.325   Durbin-Watson:                   2.015
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             9793.693
+Skew:                           1.778   Prob(JB):                         0.00
+Kurtosis:                       7.576   Cond. No.                         8.42
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+MULTIPLE MODEL
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Sales   R-squared:                       0.159
+Model:                            OLS   Adj. R-squared:                  0.159
+Method:                 Least Squares   F-statistic:                     185.1
+Date:                Fri, 20 Nov 2026   Prob (F-statistic):          2.53e-115
+Time:                        23:17:02   Log-Likelihood:                -72888.
+No. Observations:                6675   AIC:                         1.458e+05
+Df Residuals:                    6671   BIC:                         1.458e+05
+Df Model:                           3                                         
+Covariance Type:                  HC3                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2045.4078    582.854      3.509      0.000     903.035    3187.780
+Quantity    3911.7997    172.953     22.618      0.000    3572.817    4250.782
+Discount   -1.568e+04   1313.150    -11.943      0.000   -1.83e+04   -1.31e+04
+Income         0.0059      0.006      0.914      0.361      -0.007       0.019
+==============================================================================
+Omnibus:                     2266.305   Durbin-Watson:                   2.005
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             8228.633
+Skew:                           1.688   Prob(JB):                         0.00
+Kurtosis:                       7.264   Cond. No.                     5.32e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 5.32e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.

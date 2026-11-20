@@ -1,0 +1,75 @@
+{
+  "raw_rows": 7084,
+  "unique_transactions": 7000,
+  "duplicates_removed": 84,
+  "invalid_age_or_missing_after_clean": 146,
+  "invalid_or_missing_discount": 76,
+  "invalid_or_missing_income": 251,
+  "mean_sales": 10961.598467142856,
+  "ci95_sales": [
+    10620.713111346553,
+    11302.483822939159
+  ],
+  "confidence_n": 7000,
+  "region_means": {
+    "North": 10777.978406921242,
+    "South": 10726.921947756955,
+    "East": 11341.752039660058,
+    "West": 10989.430233592882
+  },
+  "ttest": {
+    "statistic": 0.10523593882884943,
+    "pvalue": 0.9161947628140742,
+    "n_north": 1676,
+    "n_south": 1761,
+    "method": "Welch independent two-sample t-test"
+  },
+  "anova": {
+    "statistic": 0.6454799429457165,
+    "pvalue": 0.5857304029574638,
+    "method": "one-way ANOVA"
+  },
+  "chi_square": {
+    "statistic": 3.4533544189389365,
+    "pvalue": 0.9027795053306846,
+    "dof": 8,
+    "min_expected": 126.11771428571429,
+    "method": "Pearson chi-square independence test"
+  },
+  "correlation": {
+    "coefficient": -0.1201494074454187,
+    "pvalue": 1.0997402595527784e-23,
+    "n": 6924,
+    "method": "Pearson correlation"
+  },
+  "simple_regression": {
+    "n": 7000,
+    "r2": 0.13892653651114228,
+    "coefficients": {
+      "const": -609.3014978211642,
+      "Quantity": 3844.517740400043
+    },
+    "pvalues": {
+      "const": 0.14922486431590748,
+      "Quantity": 1.0263346462018052e-114
+    }
+  },
+  "multiple_regression": {
+    "n": 6675,
+    "r2": 0.15905346657179364,
+    "coefficients": {
+      "const": 2045.4077523490164,
+      "Quantity": 3911.799658375563,
+      "Discount": -15683.213849259419,
+      "Income": 0.005925095634172257
+    },
+    "pvalues": {
+      "const": 0.0004492909698798895,
+      "Quantity": 2.9057274324610753e-113,
+      "Discount": 7.045943047131096e-33,
+      "Income": 0.3609310196097911
+    }
+  },
+  "alpha": 0.05,
+  "note": "Full supplied dataset; no random sampling, no causal claims. OLS HC3 heteroskedasticity-robust standard errors; observational and potentially repeated customers."
+}
